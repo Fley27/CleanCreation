@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1 !important;
+    background-color: var(--black_transparent);
+}
+
+.card{
+    position: relative;
+    z-index: 2 !important;
+    width: 60%;
+    margin: 0 auto;
+}

@@ -1,0 +1,38 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root{ 
+  --color_text_menu: #000;
+  --color_text_menu_rgb: 0,0,0;
+  --color_back_menu: #FFF;
+  --color_back_menu_rgb: 255,255,255;
+  --color_focus_menu: #8ed444;
+  --color_focus_menu_rgb: 142,212,68;
+  --color_primary: #8ed444;
+  --color_primary_rgb: 142,212,68;
+  --color_text_on_primary: #fff;
+  --color_text_on_primary_rgb: 255,255,255;
+  --color_secondary: #8ed444;
+  --color_secondary_rgb: 142,212,68;
+  --color_text_on_secondary: #fff;
+  --color_text_on_secondary_rgb: 255,255,255;
+  --black_transparent: rgba(0, 0, 0, 0.2);
+  --white_transparent: #ffffff8c;
+  --black: #030403;
+  --maxWidth: 1280px;
+  --poppins: 'Poppins', sans-serif;
+}
